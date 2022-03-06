@@ -68,6 +68,9 @@ img{
        padding: 0;
        box-sizing: border-box;
   }
+  img{
+    height: 100px;
+  }
   /* /body */
   #lezioni{
     display: flex;
@@ -92,10 +95,27 @@ img{
 
    width: 100%;
  }
+ 
+ }
 /* /steps */
 
 #why{
   display: flex;
+  background-color: #e0cbb4; 
+}
+#why .row{
+  width: 95%;
+}
+#why .row > .first,
+#why .row > .second,
+#why .row > .third {
+  border-bottom: 1px solid black;
+}
+#why .row img{
+  height: 70px;
+}
+hr{
+  display: none;
 }
 /* /why */
 } 

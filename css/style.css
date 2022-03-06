@@ -60,4 +60,43 @@ img{
   clear:both;
 }
 
+/* media queries */
+
+@media screen and (max-width: 420px) {
+  body{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+  }
+  /* /body */
+  #lezioni{
+    display: flex;
+    background-color: #F2F2CD;
+  }
+  .row{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #lezioni .row > .left, 
+#lezioni .row > .right{
+  width: 100%; 
+}
+ /* /lezioni */
+ 
+ #steps{
+   display: flex;
+ }
+ #steps .row > .left,
+ #steps .row > .central,
+ #steps .row > .right{
+
+   width: 100%;
+ }
+/* /steps */
+
+#why{
+  display: flex;
+}
+/* /why */
+} 
 
